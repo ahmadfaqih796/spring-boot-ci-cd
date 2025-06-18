@@ -10,5 +10,10 @@ public class HelloWorldController {
    public String sayHello() {
       return "Hello World! Welcome to CI/CD!";
    }
+
+   @GetMapping("/hello2")
+   public String sayHello2() {
+      return "Hello World! Welcome to CI/CD 2";
+   }
    
 }
